@@ -121,6 +121,84 @@
     <value>10, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="sistemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="sistemaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datos del Usuario</value>
+  </data>
+  <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="salirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="sitemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 24</value>
+  </data>
+  <data name="sitemaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sitema</value>
+  </data>
+  <data name="colaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="colaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cola</value>
+  </data>
+  <data name="pilaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="pilaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pila</value>
+  </data>
+  <data name="listaSimpleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="listaSimpleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista Simple</value>
+  </data>
+  <data name="listaDobleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="listaDobleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista Doble</value>
+  </data>
+  <data name="estructurasLinealesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 24</value>
+  </data>
+  <data name="estructurasLinealesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Estructuras Lineales</value>
+  </data>
+  <data name="arbolBinarioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="arbolBinarioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arbol Binario</value>
+  </data>
+  <data name="estructurasNoLinealesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="estructurasNoLinealesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Estructuras no Lineales</value>
+  </data>
+  <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 26</value>
+  </data>
+  <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Operaciones con tablas de bases de datos</value>
+  </data>
+  <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 26</value>
+  </data>
+  <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>consultas en la base de datos</value>
+  </data>
+  <data name="baseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 24</value>
+  </data>
+  <data name="baseDeDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Base de Datos</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -145,24 +223,6 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="sitemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 24</value>
-  </data>
-  <data name="sitemaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sitema</value>
-  </data>
-  <data name="sistemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="sistemaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sistema</value>
-  </data>
-  <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="salirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salir</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -192,6 +252,66 @@
     <value>salirToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;salirToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;estructurasLinealesToolStripMenuItem.Name" xml:space="preserve">
+    <value>estructurasLinealesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;estructurasLinealesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colaToolStripMenuItem.Name" xml:space="preserve">
+    <value>colaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;colaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pilaToolStripMenuItem.Name" xml:space="preserve">
+    <value>pilaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pilaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listaSimpleToolStripMenuItem.Name" xml:space="preserve">
+    <value>listaSimpleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;listaSimpleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listaDobleToolStripMenuItem.Name" xml:space="preserve">
+    <value>listaDobleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;listaDobleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;estructurasNoLinealesToolStripMenuItem.Name" xml:space="preserve">
+    <value>estructurasNoLinealesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;estructurasNoLinealesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;baseDeDatosToolStripMenuItem.Name" xml:space="preserve">
+    <value>baseDeDatosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;baseDeDatosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;arbolBinarioToolStripMenuItem.Name" xml:space="preserve">
+    <value>arbolBinarioToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;arbolBinarioToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;operacionesConTablasDeBasesDeDatosToolStripMenuItem.Name" xml:space="preserve">
+    <value>operacionesConTablasDeBasesDeDatosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;operacionesConTablasDeBasesDeDatosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;consultasEnLaBaseDeDatosToolStripMenuItem.Name" xml:space="preserve">
+    <value>consultasEnLaBaseDeDatosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;consultasEnLaBaseDeDatosToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

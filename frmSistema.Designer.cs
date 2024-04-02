@@ -39,7 +39,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(267, 68);
+            this.lblNombre.Location = new System.Drawing.Point(357, 157);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(90, 16);
             this.lblNombre.TabIndex = 0;
@@ -48,7 +48,7 @@
             // lblDni
             // 
             this.lblDni.AutoSize = true;
-            this.lblDni.Location = new System.Drawing.Point(267, 98);
+            this.lblDni.Location = new System.Drawing.Point(357, 187);
             this.lblDni.Name = "lblDni";
             this.lblDni.Size = new System.Drawing.Size(63, 16);
             this.lblDni.TabIndex = 1;
@@ -57,7 +57,7 @@
             // lblMateria
             // 
             this.lblMateria.AutoSize = true;
-            this.lblMateria.Location = new System.Drawing.Point(267, 130);
+            this.lblMateria.Location = new System.Drawing.Point(357, 219);
             this.lblMateria.Name = "lblMateria";
             this.lblMateria.Size = new System.Drawing.Size(124, 16);
             this.lblMateria.TabIndex = 2;
@@ -66,7 +66,7 @@
             // lblSemestre
             // 
             this.lblSemestre.AutoSize = true;
-            this.lblSemestre.Location = new System.Drawing.Point(267, 165);
+            this.lblSemestre.Location = new System.Drawing.Point(357, 254);
             this.lblSemestre.Name = "lblSemestre";
             this.lblSemestre.Size = new System.Drawing.Size(87, 16);
             this.lblSemestre.TabIndex = 3;
