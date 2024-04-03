@@ -39,8 +39,8 @@
             this.listaSimpleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaDobleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.estructurasNoLinealesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arbolBinarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.operacionesConTablasDeBasesDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasEnLaBaseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -91,6 +91,7 @@
             // 
             this.colaToolStripMenuItem.Name = "colaToolStripMenuItem";
             resources.ApplyResources(this.colaToolStripMenuItem, "colaToolStripMenuItem");
+            this.colaToolStripMenuItem.Click += new System.EventHandler(this.colaToolStripMenuItem_Click);
             // 
             // pilaToolStripMenuItem
             // 
@@ -114,6 +115,11 @@
             this.estructurasNoLinealesToolStripMenuItem.Name = "estructurasNoLinealesToolStripMenuItem";
             resources.ApplyResources(this.estructurasNoLinealesToolStripMenuItem, "estructurasNoLinealesToolStripMenuItem");
             // 
+            // arbolBinarioToolStripMenuItem
+            // 
+            this.arbolBinarioToolStripMenuItem.Name = "arbolBinarioToolStripMenuItem";
+            resources.ApplyResources(this.arbolBinarioToolStripMenuItem, "arbolBinarioToolStripMenuItem");
+            // 
             // baseDeDatosToolStripMenuItem
             // 
             this.baseDeDatosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -121,11 +127,6 @@
             this.consultasEnLaBaseDeDatosToolStripMenuItem});
             this.baseDeDatosToolStripMenuItem.Name = "baseDeDatosToolStripMenuItem";
             resources.ApplyResources(this.baseDeDatosToolStripMenuItem, "baseDeDatosToolStripMenuItem");
-            // 
-            // arbolBinarioToolStripMenuItem
-            // 
-            this.arbolBinarioToolStripMenuItem.Name = "arbolBinarioToolStripMenuItem";
-            resources.ApplyResources(this.arbolBinarioToolStripMenuItem, "arbolBinarioToolStripMenuItem");
             // 
             // operacionesConTablasDeBasesDeDatosToolStripMenuItem
             // 

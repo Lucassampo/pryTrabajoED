@@ -27,5 +27,11 @@ namespace TrabajoED
             frmSistema sistema = new frmSistema();
             sistema.Show();
         }
+
+        private void colaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCola cola = new frmCola();
+            cola.Show();
+        }
     }
 }
