@@ -44,5 +44,17 @@ namespace TrabajoED
             frmPila pila = new frmPila();
             pila.Show();
         }
+
+        private void listaSimpleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListSimple simple = new frmListSimple();
+            simple.Show();
+        }
+
+        private void listaDobleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListSimple doble = new frmListSimple();
+            doble.Show();
+        }
     }
 }

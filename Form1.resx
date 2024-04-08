@@ -140,13 +140,13 @@
     <value>Pila</value>
   </data>
   <data name="listaSimpleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="listaSimpleToolStripMenuItem.Text" xml:space="preserve">
     <value>Lista Simple</value>
   </data>
   <data name="listaDobleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="listaDobleToolStripMenuItem.Text" xml:space="preserve">
     <value>Lista Doble</value>

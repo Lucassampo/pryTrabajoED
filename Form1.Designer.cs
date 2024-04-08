@@ -103,11 +103,13 @@
             // 
             this.listaSimpleToolStripMenuItem.Name = "listaSimpleToolStripMenuItem";
             resources.ApplyResources(this.listaSimpleToolStripMenuItem, "listaSimpleToolStripMenuItem");
+            this.listaSimpleToolStripMenuItem.Click += new System.EventHandler(this.listaSimpleToolStripMenuItem_Click);
             // 
             // listaDobleToolStripMenuItem
             // 
             this.listaDobleToolStripMenuItem.Name = "listaDobleToolStripMenuItem";
             resources.ApplyResources(this.listaDobleToolStripMenuItem, "listaDobleToolStripMenuItem");
+            this.listaDobleToolStripMenuItem.Click += new System.EventHandler(this.listaDobleToolStripMenuItem_Click);
             // 
             // estructurasNoLinealesToolStripMenuItem
             // 
