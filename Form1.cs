@@ -33,5 +33,16 @@ namespace TrabajoED
             frmCola cola = new frmCola();
             cola.Show();
         }
+
+        private void frmEstructuraDeDatos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pilaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPila pila = new frmPila();
+            pila.Show();
+        }
     }
 }

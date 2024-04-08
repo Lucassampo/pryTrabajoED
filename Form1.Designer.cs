@@ -97,6 +97,7 @@
             // 
             this.pilaToolStripMenuItem.Name = "pilaToolStripMenuItem";
             resources.ApplyResources(this.pilaToolStripMenuItem, "pilaToolStripMenuItem");
+            this.pilaToolStripMenuItem.Click += new System.EventHandler(this.pilaToolStripMenuItem_Click);
             // 
             // listaSimpleToolStripMenuItem
             // 
@@ -147,6 +148,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmEstructuraDeDatos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmEstructuraDeDatos_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace TrabajoED
 {
-    public partial class frmCola : Form
+    public partial class frmPila : Form
     {
-        public frmCola()
+        public frmPila()
         {
             InitializeComponent();
         }
-        clsCola FilaDePersonas = new clsCola();
+        clsPila FilaDePersonas = new clsPila();
         private void button1_Click(object sender, EventArgs e)
         {
             clsNodo ObjNodo = new clsNodo();
@@ -24,8 +24,8 @@ namespace TrabajoED
             ObjNodo.Nombre = txtNombre.Text;
             ObjNodo.Tramite = txtTramite.Text;
             FilaDePersonas.Agregar(ObjNodo);
-            FilaDePersonas.Recorrer(dgvCola);
-            FilaDePersonas.Recorrer(lstCola);
+            FilaDePersonas.Recorrer(dgvPila);
+            FilaDePersonas.Recorrer(lstPila);
             FilaDePersonas.Recorrer();
             txtCodigo.Text = "";
             txtNombre.Text = "";
@@ -40,8 +40,8 @@ namespace TrabajoED
                 lblNombre.Text = FilaDePersonas.Primero.Nombre;
                 lblTramite.Text = FilaDePersonas.Primero.Tramite;
                 FilaDePersonas.Eliminar();
-                FilaDePersonas.Recorrer(dgvCola);
-                FilaDePersonas.Recorrer(lstCola);
+                FilaDePersonas.Recorrer(dgvPila);
+                FilaDePersonas.Recorrer(lstPila);
                 FilaDePersonas.Recorrer();
             }
             else
@@ -50,11 +50,6 @@ namespace TrabajoED
                 lblNombre.Text = "";
                 lblTramite.Text = "";
             }
-        }
-
-        private void frmCola_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

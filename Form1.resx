@@ -121,18 +121,6 @@
     <value>10, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="sistemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="sistemaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Datos del Usuario</value>
-  </data>
-  <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="salirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Salir</value>
-  </data>
   <data name="sitemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 20</value>
   </data>
@@ -140,7 +128,7 @@
     <value>Sitema</value>
   </data>
   <data name="colaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>137, 22</value>
   </data>
   <data name="colaToolStripMenuItem.Text" xml:space="preserve">
     <value>Cola</value>
@@ -152,13 +140,13 @@
     <value>Pila</value>
   </data>
   <data name="listaSimpleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>137, 22</value>
   </data>
   <data name="listaSimpleToolStripMenuItem.Text" xml:space="preserve">
     <value>Lista Simple</value>
   </data>
   <data name="listaDobleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>137, 22</value>
   </data>
   <data name="listaDobleToolStripMenuItem.Text" xml:space="preserve">
     <value>Lista Doble</value>
@@ -169,29 +157,11 @@
   <data name="estructurasLinealesToolStripMenuItem.Text" xml:space="preserve">
     <value>Estructuras Lineales</value>
   </data>
-  <data name="arbolBinarioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="arbolBinarioToolStripMenuItem.Text" xml:space="preserve">
-    <value>Arbol Binario</value>
-  </data>
   <data name="estructurasNoLinealesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 20</value>
   </data>
   <data name="estructurasNoLinealesToolStripMenuItem.Text" xml:space="preserve">
     <value>Estructuras no Lineales</value>
-  </data>
-  <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 22</value>
-  </data>
-  <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Text" xml:space="preserve">
-    <value>Operaciones con tablas de bases de datos</value>
-  </data>
-  <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 22</value>
-  </data>
-  <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Text" xml:space="preserve">
-    <value>consultas en la base de datos</value>
   </data>
   <data name="baseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 20</value>
@@ -227,6 +197,36 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="sistemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="sistemaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Datos del Usuario</value>
+  </data>
+  <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 22</value>
+  </data>
+  <data name="salirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="arbolBinarioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="arbolBinarioToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arbol Binario</value>
+  </data>
+  <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
+  </data>
+  <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>Operaciones con tablas de bases de datos</value>
+  </data>
+  <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 22</value>
+  </data>
+  <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Text" xml:space="preserve">
+    <value>consultas en la base de datos</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
