@@ -122,49 +122,25 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="sitemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
+    <value>69, 24</value>
   </data>
   <data name="sitemaToolStripMenuItem.Text" xml:space="preserve">
     <value>Sitema</value>
   </data>
-  <data name="colaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 22</value>
-  </data>
-  <data name="colaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cola</value>
-  </data>
-  <data name="pilaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="pilaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pila</value>
-  </data>
-  <data name="listaSimpleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="listaSimpleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lista Simple</value>
-  </data>
-  <data name="listaDobleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="listaDobleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lista Doble</value>
-  </data>
   <data name="estructurasLinealesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 20</value>
+    <value>151, 24</value>
   </data>
   <data name="estructurasLinealesToolStripMenuItem.Text" xml:space="preserve">
     <value>Estructuras Lineales</value>
   </data>
   <data name="estructurasNoLinealesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 20</value>
+    <value>172, 24</value>
   </data>
   <data name="estructurasNoLinealesToolStripMenuItem.Text" xml:space="preserve">
     <value>Estructuras no Lineales</value>
   </data>
   <data name="baseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 20</value>
+    <value>118, 24</value>
   </data>
   <data name="baseDeDatosToolStripMenuItem.Text" xml:space="preserve">
     <value>Base de Datos</value>
@@ -174,10 +150,10 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 0, 2</value>
+    <value>5, 2, 0, 2</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>657, 24</value>
+    <value>876, 30</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
@@ -199,31 +175,55 @@
     <value>0</value>
   </data>
   <data name="sistemaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="sistemaToolStripMenuItem.Text" xml:space="preserve">
     <value>Datos del Usuario</value>
   </data>
   <data name="salirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 22</value>
+    <value>210, 26</value>
   </data>
   <data name="salirToolStripMenuItem.Text" xml:space="preserve">
     <value>Salir</value>
   </data>
+  <data name="colaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="colaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cola</value>
+  </data>
+  <data name="pilaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="pilaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pila</value>
+  </data>
+  <data name="listaSimpleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="listaSimpleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista Simple</value>
+  </data>
+  <data name="listaDobleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="listaDobleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lista Doble</value>
+  </data>
   <data name="arbolBinarioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 22</value>
+    <value>180, 26</value>
   </data>
   <data name="arbolBinarioToolStripMenuItem.Text" xml:space="preserve">
     <value>Arbol Binario</value>
   </data>
   <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 22</value>
+    <value>371, 26</value>
   </data>
   <data name="operacionesConTablasDeBasesDeDatosToolStripMenuItem.Text" xml:space="preserve">
     <value>Operaciones con tablas de bases de datos</value>
   </data>
   <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 22</value>
+    <value>371, 26</value>
   </data>
   <data name="consultasEnLaBaseDeDatosToolStripMenuItem.Text" xml:space="preserve">
     <value>consultas en la base de datos</value>
@@ -232,13 +232,89 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        VwxbQCocyfc987NUk1/TBobAwTl6YvGsXW6E/TEbvQ0pZj8dMykTZSJH74YDAAHAJr00YjMsMprN3Nqm
+        8md/3GVDtgImpxxmzpFpuq+6fTCRvlC9XN9XOWIEBuYWJaoGskeJhoai8/c9T/oIf//aAAwDAQACAAMA
+        AAAQ8888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        888888888888888888888888888888888888888888888888888888888888888888884w8888888888
+        888888888888888888888888kUY888888888888888888888888888888888EU888888888888888888
+        8888888888888888wwU888888888888888888888888888888888w0408048ww888888888888888888
+        8888888848AsU044UUc8888888888888888888888888wMM8ckMMMM88888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        88888888888888888888888888888888888888888888888888888888888888888888888888888888
+        8888/8QAFBEBAAAAAAAAAAAAAAAAAAAAkP/aAAgBAwEBPxA0P//EABQRAQAAAAAAAAAAAAAAAAAAAJD/
+        2gAIAQIBAT8QND//xAAnEAEBAAICAQMEAQUAAAAAAAABEQAhMUFRYXGREFBggSBwkKCh0f/aAAgBAQAB
+        PxD+/kztEJdCp+8HVwSlQGxjpMrm/wBhReXRockWleIgAtvpuEj+CRBhKO79ZS8ZL0PEyLKz5zkGZCEA
+        EQe+sdM5/Mk7pHsMfwOIiUvIsafLm34/OOa87w5Xwf8AmIS+WrCr7B+CRGRfvmOro1gbkYntNfT7GBIm
+        kSEDXSpN9n4ISPXwHgKr+jOy2y8yUvb6OAW/72BLI7ciFXF38fgleXK8uV5cVeW/0Lj4yP1mROv4RfrP
+        qCnGR8ZXj7rqGUbAmt7Qs85AUDFxAsY3Ui7wAGyYgYeWuVCt4xs6TWjNpQ+SPIpjYgXuWVPUvnWIb8SZ
+        nRBReYkY6wwTi4WjOKabd5WHOgFAWnMWDdVxaauKENTB9AU6RwoOwFeIGvYG6XIsWFIgMdKgl5W9YYQG
+        aeA9KL4j0uQTSGyPAm09+cKCwuKrpwKL4UXCCSoQg5BSvRrlhiMvoPjFcB3D3hgdkPCySkaCDQ9k40sR
+        J5XZDo1XJXTqGtjULd3nxgniAVYmRAvg2FqYiAROR6+6BQr1sLW9ida1ipVrgEURjTE4mJqjwVijIJyQ
+        UMuNDY2m/epPhwRGKYCoaUlCb3hKJigjVgqKonDFyUYxWkBE2ofObJ8bQbhgB2GwDGrp71WhCl0gbfTI
+        E6pA4zhrCPThJUm5WUoBmlnTJ1r3QIgXdmxwZj67cYUFACIAGcg4dIg3BzUgvGJ53FdU26pKdoyc3cA1
+        c1AGhAkkxrOYrEFRKBW1bmXaDIjNDYogpQ98dRtvZAkGqhTrGqXlfuaSAgUNBTXQALmh3VhFA9zoOWJz
+        kqsbuhX1o/TjITEg5SPeH2XLjQG0BQg6Z07yYLs0PkPDO8UHLMTnxbr3q3btovD4xWtkJJTR52U67mWv
+        IOnIER2dp5MmWbRelDVqsYcsZi3py5cr5+l/hfunHbXYQCeosM9ZGawfKO5vHPkVWXQnro0dZviaNz7t
+        dHwU4cda0Eg1QHZF69pmsBK+bAvhUO31OF57bJeBIHQAb9MktQ4FG93mF/clbAuYhQvo1Gm4hNNCkrY+
+        RjPVri3/AAD/AP/Z
+</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>657, 389</value>
+    <value>876, 479</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Estructura de Datos</value>
