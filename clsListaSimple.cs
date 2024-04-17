@@ -46,18 +46,18 @@ namespace TrabajoED
                 }
             }
         }
-        
-        public void Eliminar(Int32 codigo)
+
+        public void Eliminar(Int32 Codigo)
         {
-            if(Primero.Codigo == codigo)
+            if (Primero.Codigo == Codigo)
             {
                 Primero = Primero.Siguiente;
             }
             else
             {
-                clsNodo aux = Primero;
                 clsNodo ant = Primero;
-                while (aux.Codigo != codigo)
+                clsNodo aux = Primero;
+                while (aux.Codigo != Codigo)
                 {
                     ant = aux;
                     aux = aux.Siguiente;
@@ -66,41 +66,39 @@ namespace TrabajoED
             }
         }
 
-        public void Recorrer(DataGridView grilla)
+        public void Recorrer(DataGridView Grilla)
         {
-            clsNodo aux;
-            grilla.Rows.Clear();
-            aux = Primero;
-            while (aux != null)
+            clsNodo Aux = Primero;
+            Grilla.Rows.Clear();
+            while (Aux != null)
             {
-                grilla.Rows.Add(aux.Codigo, aux.Nombre, aux.Tramite);
-                aux = aux.Siguiente;
+                Grilla.Rows.Add(Aux.Codigo, Aux.Nombre, Aux.Tramite);
+                Aux = Aux.Siguiente;
             }
         }
 
         public void Recorrer(ComboBox Combo)
         {
-            clsNodo aux;
+            clsNodo Aux = Primero;
             Combo.Items.Clear();
-            aux = Primero;
-            while (aux != null)
+            while (Aux != null)
             {
-                Combo.Items.Add(aux.Nombre);
-                aux = aux.Siguiente;
+                Combo.Items.Add(Aux.Codigo);
+                Aux = Aux.Siguiente;
             }
             Combo.ValueMember = "Codigo";
             Combo.DisplayMember = "Codigo";
+
         }
 
         public void Recorrer(ListBox Lista)
         {
-            clsNodo aux;
+            clsNodo Aux = Primero;
             Lista.Items.Clear();
-            aux = Primero;
-            while (aux != null)
+            while (Aux != null)
             {
-                Lista.Items.Add(aux.Codigo);
-                aux = aux.Siguiente;
+                Lista.Items.Add(Aux.Codigo);
+                Aux = Aux.Siguiente;
             }
         }
 
