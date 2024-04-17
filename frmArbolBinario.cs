@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace TrabajoED
 {
-    public partial class frmListDoble : Form
+    public partial class frmArbolBinario : Form
     {
-        public frmListDoble()
+        public frmArbolBinario()
         {
             InitializeComponent();
         }
-
-        private void frmListDoble_Load(object sender, EventArgs e)
+         
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

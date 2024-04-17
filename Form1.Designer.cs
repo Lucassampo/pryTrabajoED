@@ -122,6 +122,7 @@
             // 
             this.arbolBinarioToolStripMenuItem.Name = "arbolBinarioToolStripMenuItem";
             resources.ApplyResources(this.arbolBinarioToolStripMenuItem, "arbolBinarioToolStripMenuItem");
+            this.arbolBinarioToolStripMenuItem.Click += new System.EventHandler(this.arbolBinarioToolStripMenuItem_Click);
             // 
             // baseDeDatosToolStripMenuItem
             // 

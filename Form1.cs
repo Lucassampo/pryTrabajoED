@@ -56,5 +56,11 @@ namespace TrabajoED
             frmListSimple doble = new frmListSimple();
             doble.Show();
         }
+
+        private void arbolBinarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmArbolBinario Arbol = new frmArbolBinario();
+            Arbol.Show();
+        }
     }
 }
