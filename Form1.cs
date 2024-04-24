@@ -53,7 +53,7 @@ namespace TrabajoED
 
         private void listaDobleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmListSimple doble = new frmListSimple();
+            frmListDoble doble = new frmListDoble();
             doble.Show();
         }
 

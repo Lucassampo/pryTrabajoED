@@ -21,5 +21,10 @@ namespace TrabajoED
         {
             
         }
+
+        private void frmArbolBinario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
