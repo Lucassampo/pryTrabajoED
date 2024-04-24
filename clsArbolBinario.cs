@@ -106,5 +106,67 @@ namespace TrabajoED
                 PreOrden(R.Derecho, NodoPadre);
             }
         }
+        private void InOrdenDes(DataGridView Dgv, clsNodo R)
+        {
+            if (R.Derecho != null) InOrdenDes(Dgv, R.Izquierdo);
+            Dgv.Rows.Add(R.Codigo, R.Nombre, R.Tramite);
+            if (R.Derecho != null) InOrdenDes(Dgv, R.Derecho);
+        }
+
+        private void GrabarVcetorInOrden(clsNodo NodoPadre)
+        {
+            if(NodoPadre.Izquierdo != null)
+            {
+                GrabarVcetorInOrden(NodoPadre.Izquierdo);
+            }
+            Vector[i] = NodoPadre;
+            i = i + 1;
+            if(NodoPadre.Derecho != null)
+            {
+                GrabarVcetorInOrden(NodoPadre.Derecho);
+            }
+        }
+
+        private void GrabarVcetorInOrden(clsNodo NodoPadre, Int32 Codigo)
+        {
+            if (NodoPadre.Izquierdo != null)
+            {
+                GrabarVcetorInOrden(NodoPadre.Izquierdo, Codigo);
+            }
+            
+        }
+
+        private void EquilibrarArbol(Int32 ini, Int32 fin)
+        {
+            Int32 m = (ini + fin) / 2;
+            if(ini <= fin)
+            {
+                Agregar(Vector[m]);
+                EquilibrarArbol(ini, m - 1);
+                EquilibrarArbol(m + 1, fin);
+            }
+        }
+
+        public clsNodo BuscarCodigo(Int32 cod)
+        {
+            clsNodo Aux = Raiz;
+            while(Aux != null)
+            {
+                if (cod == Aux.Codigo) break;
+                if (cod < Aux.Codigo) Aux = Aux.Izquierdo;
+                else Aux = Aux.Derecho;
+            }
+            return Aux;
+        }
+        private clsNodo[] Vector = new clsNodo[100];
+        private Int32 i = 0;
+
+        public void Equilibrar()
+        {
+            i = 0;
+            GrabarVcetorInOrden(Raiz);
+            Raiz = null;
+            EquilibrarArbol(0, i - 1);
+        }
     }
 }
