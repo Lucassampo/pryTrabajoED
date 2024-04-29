@@ -38,6 +38,12 @@ namespace TrabajoED
             set { sig = value; }
         }
 
+        public clsNodo Anterior
+        {
+            get { return ant; }
+            set { ant = value; }
+        }
+
         public clsNodo Izquierdo
         {
             get { return ant; }

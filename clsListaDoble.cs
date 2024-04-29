@@ -11,11 +11,17 @@ namespace TrabajoED
     internal class clsListaDoble
     {
         private clsNodo pri;
+        private clsNodo ult;
 
         public clsNodo Primero
         {
             get { return pri; }
             set { pri = value; }
+        }
+        public clsNodo Ultimo
+        {
+            get { return ult; }
+            set { ult = value; }
         }
 
         public void Agregar(clsNodo Nuevo)
@@ -101,6 +107,43 @@ namespace TrabajoED
                 Aux = Aux.Siguiente;
             }
         }
+
+        public void RecorrerDes(DataGridView Grilla)
+        {
+            clsNodo Aux = Ultimo;
+            Grilla.Rows.Clear();
+            while (Aux != null)
+            {
+                Grilla.Rows.Add(Aux.Codigo, Aux.Nombre, Aux.Tramite);
+                Aux = Aux.Anterior;
+            }
+        }
+
+        public void RecorrerDes(ComboBox Combo)
+        {
+            clsNodo Aux = Ultimo;
+            Combo.Items.Clear();
+            while (Aux != null)
+            {
+                Combo.Items.Add(Aux.Codigo);
+                Aux = Aux.Anterior;
+            }
+            Combo.ValueMember = "Codigo";
+            Combo.DisplayMember = "Codigo";
+
+        }
+
+        public void RecorrerDes(ListBox Lista)
+        {
+            clsNodo Aux = Ultimo;
+            Lista.Items.Clear();
+            while (Aux != null)
+            {
+                Lista.Items.Add(Aux.Codigo);
+                Aux = Aux.Anterior;
+            }
+        }
+
 
         public void Recorrer()
         {

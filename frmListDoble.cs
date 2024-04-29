@@ -16,7 +16,7 @@ namespace TrabajoED
         {
             InitializeComponent();
         }
-        clsListaSimple FilaDePersonas = new clsListaSimple();
+        clsListaDoble FilaDePersonas = new clsListaDoble();
         private void frmListDoble_Load(object sender, EventArgs e)
         {
             FilaDePersonas.Recorrer(cmbListaDoble);
@@ -47,6 +47,20 @@ namespace TrabajoED
                 FilaDePersonas.Recorrer(cmbListaDoble);
                 cmbListaDoble.SelectedIndex = -1;
             }
+        }
+
+        private void rdAscendente_CheckedChanged(object sender, EventArgs e)
+        {
+            FilaDePersonas.Recorrer(dgvListaDoble);
+            FilaDePersonas.Recorrer(lstListadoble);
+            FilaDePersonas.Recorrer(cmbListaDoble);
+        }
+
+        private void rdDescendente_CheckedChanged(object sender, EventArgs e)
+        {
+            FilaDePersonas.RecorrerDes(dgvListaDoble);
+            FilaDePersonas.RecorrerDes(lstListadoble);
+            FilaDePersonas.RecorrerDes(cmbListaDoble);
         }
     }
 }
