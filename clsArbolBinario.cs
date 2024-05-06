@@ -106,11 +106,35 @@ namespace TrabajoED
                 PreOrden(R.Derecho, NodoPadre);
             }
         }
+
+        public void recorrerDes(DataGridView grilla)
+        {
+            grilla.Rows.Clear();
+            InOrdenDes(grilla, Raiz);
+        }
+        public void recorrerDes(ComboBox combobox)
+        {
+            combobox.Items.Clear();
+            InOrdenDes(combobox, Raiz);
+        }
+        private void InOrdenDes(ComboBox Lst, clsNodo R)
+        {
+            if (R.Derecho != null)
+            {
+                InOrdenDes(Lst, R.Derecho);
+            }
+            Lst.Items.Clear();
+            if (R.Izquierdo != null)
+            {
+                InOrdenDes(Lst, R.Izquierdo);
+            }
+        }
+
         private void InOrdenDes(DataGridView Dgv, clsNodo R)
         {
-            if (R.Derecho != null) InOrdenDes(Dgv, R.Izquierdo);
-            Dgv.Rows.Add(R.Codigo, R.Nombre, R.Tramite);
             if (R.Derecho != null) InOrdenDes(Dgv, R.Derecho);
+            Dgv.Rows.Add(R.Codigo, R.Nombre, R.Tramite);
+           if (R.Izquierdo != null) InOrdenDes(Dgv, R.Izquierdo);
         }
 
         private void GrabarVcetorInOrden(clsNodo NodoPadre)
@@ -133,7 +157,6 @@ namespace TrabajoED
             {
                 GrabarVcetorInOrden(NodoPadre.Izquierdo, Codigo);
             }
-            
         }
 
         private void EquilibrarArbol(Int32 ini, Int32 fin)

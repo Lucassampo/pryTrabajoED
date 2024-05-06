@@ -193,6 +193,7 @@
             this.rdInOrden.TabStop = true;
             this.rdInOrden.Text = "In-Orden";
             this.rdInOrden.UseVisualStyleBackColor = true;
+            this.rdInOrden.CheckedChanged += new System.EventHandler(this.rdInOrden_CheckedChanged);
             // 
             // rdPreOrden
             // 
@@ -266,6 +267,7 @@
             this.rdInOrdenDes.TabStop = true;
             this.rdInOrdenDes.Text = "In-OrdenDes";
             this.rdInOrdenDes.UseVisualStyleBackColor = true;
+            this.rdInOrdenDes.CheckedChanged += new System.EventHandler(this.rdInOrdenDes_CheckedChanged);
             // 
             // frmArbolBinario
             // 

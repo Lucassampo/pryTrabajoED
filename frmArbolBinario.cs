@@ -37,5 +37,17 @@ namespace TrabajoED
         {
 
         }
+
+        private void rdInOrden_CheckedChanged(object sender, EventArgs e)
+        {
+            FilaDePersonas.Recorrer(dgvArbolBinario);
+            FilaDePersonas.Recorrer(cmbArbolBinario);
+        }
+
+        private void rdInOrdenDes_CheckedChanged(object sender, EventArgs e)
+        {
+            FilaDePersonas.recorrerDes(dgvArbolBinario);
+            FilaDePersonas.recorrerDes(cmbArbolBinario);
+        }
     }
 }
