@@ -158,7 +158,7 @@ namespace TrabajoED
         public void RecorrerDes()
         {
             clsNodo aux = Ultimo;
-            StreamWriter AD = new StreamWriter("Cola.csv", false, Encoding.UTF8);
+            StreamWriter AD = new StreamWriter("ListaDoble.csv", false, Encoding.UTF8);
             AD.WriteLine("Lista de espera\n");
             AD.WriteLine("Código;Nombre;Trámite");
             while (aux != null)
@@ -176,7 +176,7 @@ namespace TrabajoED
         public void Recorrer()
         {
             clsNodo aux = Primero;
-            StreamWriter AD = new StreamWriter("ListaSimple.csv", false, Encoding.UTF8);
+            StreamWriter AD = new StreamWriter("ListaDoble.csv", false, Encoding.UTF8);
             AD.WriteLine("Lista de espera\n");
             AD.WriteLine("Codigo;Nombre;Tramite");
             while (aux != null)
