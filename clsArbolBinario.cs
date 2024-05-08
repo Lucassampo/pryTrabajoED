@@ -52,7 +52,15 @@ namespace TrabajoED
                 }
             }
         }
-        
+
+        public void Eliminar(Int32 codigo)
+        {
+             i = 0;
+             GrabarVcetorInOrden(Raiz, codigo);
+             Raiz = null;
+             EquilibrarArbol(0, i - 1);
+            
+        }
         public void Recorrer(ComboBox Lista)
         {
             Lista.Items.Clear();
@@ -65,11 +73,12 @@ namespace TrabajoED
             {
                 InOrdenAsc(Lst, R.Izquierdo);
             }
-            Lst.Items.Clear();
+            Lst.Items.Add(R.Codigo);
             if(R.Derecho != null)
             {
                 InOrdenAsc(Lst, R.Derecho);
             }
+
         }
 
         public void Recorrer(DataGridView Grilla)
@@ -93,6 +102,12 @@ namespace TrabajoED
             tree.ExpandAll();
         }
 
+        //public void RecorrerPre(DataGridView grilla)
+        //{
+        //    grilla.Rows.Clear();
+        //    PreOrden(grilla, Raiz);
+        //}
+       
         private void PreOrden(clsNodo R, TreeNode nodoTreeView)
         {
             TreeNode NodoPadre = new TreeNode(R.Codigo.ToString());
@@ -105,6 +120,27 @@ namespace TrabajoED
             {
                 PreOrden(R.Derecho, NodoPadre);
             }
+        }
+
+        public void RecorrerPost(DataGridView grilla)
+        {
+            grilla.Rows.Clear();
+            PostOrden(grilla, Raiz);
+        }
+        public void PostOrden(DataGridView grilla, clsNodo Raiz)
+        {
+            if(Raiz.Izquierdo != null)
+            {
+                PostOrden(grilla, Raiz.Izquierdo);
+            }
+            
+            if(Raiz.Derecho != null)
+            {
+                PostOrden(grilla, Raiz.Derecho);
+            }
+            grilla.Rows.Add(Raiz.Codigo, Raiz.Nombre, Raiz.Tramite);
+
+            
         }
 
         public void recorrerDes(DataGridView grilla)
@@ -156,6 +192,17 @@ namespace TrabajoED
             if (NodoPadre.Izquierdo != null)
             {
                 GrabarVcetorInOrden(NodoPadre.Izquierdo, Codigo);
+            }
+            
+            if(NodoPadre.Codigo != Codigo)
+            {
+                Vector[i] = NodoPadre;
+                i = i + 1;
+            }
+
+            if(NodoPadre.Derecho != null)
+            {
+                GrabarVcetorInOrden(NodoPadre.Derecho, Codigo);
             }
         }
 

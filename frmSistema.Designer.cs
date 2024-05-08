@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSistema));
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblDni = new System.Windows.Forms.Label();
             this.lblMateria = new System.Windows.Forms.Label();
@@ -39,7 +40,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(357, 157);
+            this.lblNombre.Location = new System.Drawing.Point(338, 83);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(90, 16);
             this.lblNombre.TabIndex = 0;
@@ -48,7 +49,7 @@
             // lblDni
             // 
             this.lblDni.AutoSize = true;
-            this.lblDni.Location = new System.Drawing.Point(357, 187);
+            this.lblDni.Location = new System.Drawing.Point(338, 113);
             this.lblDni.Name = "lblDni";
             this.lblDni.Size = new System.Drawing.Size(63, 16);
             this.lblDni.TabIndex = 1;
@@ -57,7 +58,7 @@
             // lblMateria
             // 
             this.lblMateria.AutoSize = true;
-            this.lblMateria.Location = new System.Drawing.Point(357, 219);
+            this.lblMateria.Location = new System.Drawing.Point(338, 145);
             this.lblMateria.Name = "lblMateria";
             this.lblMateria.Size = new System.Drawing.Size(124, 16);
             this.lblMateria.TabIndex = 2;
@@ -66,7 +67,7 @@
             // lblSemestre
             // 
             this.lblSemestre.AutoSize = true;
-            this.lblSemestre.Location = new System.Drawing.Point(357, 254);
+            this.lblSemestre.Location = new System.Drawing.Point(338, 180);
             this.lblSemestre.Name = "lblSemestre";
             this.lblSemestre.Size = new System.Drawing.Size(87, 16);
             this.lblSemestre.TabIndex = 3;
@@ -74,11 +75,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.ImageLocation = "";
-            this.pictureBox1.Location = new System.Drawing.Point(21, 34);
+            this.pictureBox1.Location = new System.Drawing.Point(48, 45);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(229, 194);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -87,7 +89,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScrollMargin = new System.Drawing.Size(100, 100);
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(624, 304);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSemestre);
             this.Controls.Add(this.lblMateria);

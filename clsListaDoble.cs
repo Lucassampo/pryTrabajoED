@@ -29,29 +29,44 @@ namespace TrabajoED
             if (Primero == null)
             {
                 Primero = Nuevo;
+                Ultimo = Nuevo;
             }
             else
             {
                 if (Nuevo.Codigo <= Primero.Codigo)
                 {
                     Nuevo.Siguiente = Primero;
+                    Primero.Anterior = Nuevo;
                     Primero = Nuevo;
                 }
                 else
                 {
-                    clsNodo aux = Primero;
-                    clsNodo ant = Primero;
-                    while (Nuevo.Codigo > aux.Codigo)
+                    if (Nuevo.Codigo > Ultimo.Codigo)
                     {
-                        ant = aux;
-                        aux = aux.Siguiente;
-                        if (aux == null) break;
+                        Ultimo.Siguiente = Nuevo;
+                        Nuevo.Anterior = Nuevo;
+                        Ultimo = Nuevo;
                     }
-                    ant.Siguiente = Nuevo;
-                    Nuevo.Siguiente = aux;
+                    else
+                    {
+                        clsNodo ant = Primero;
+                        clsNodo aux = Primero;
+                        while (aux.Codigo < Nuevo.Codigo && aux != null)
+                        {
+                            ant = aux;
+                            aux = aux.Siguiente;
+                            if (aux == null) { break; }
+                        }
+                        ant.Siguiente = Nuevo;
+                        Nuevo.Siguiente = aux;
+                        aux.Anterior = Nuevo;
+                        Nuevo.Anterior = ant;
+
+                    }
                 }
             }
         }
+
 
         public void Eliminar(Int32 Codigo)
         {
@@ -128,9 +143,6 @@ namespace TrabajoED
                 Combo.Items.Add(Aux.Codigo);
                 Aux = Aux.Anterior;
             }
-            Combo.ValueMember = "Codigo";
-            Combo.DisplayMember = "Codigo";
-
         }
 
         public void RecorrerDes(ListBox Lista)
@@ -144,6 +156,23 @@ namespace TrabajoED
             }
         }
 
+        public void RecorrerDes()
+        {
+            clsNodo aux = Ultimo;
+            StreamWriter AD = new StreamWriter("Cola.csv", false, Encoding.UTF8);
+            AD.WriteLine("Lista de espera\n");
+            AD.WriteLine("Código;Nombre;Trámite");
+            while (aux != null)
+            {
+                AD.Write(aux.Codigo);
+                AD.Write(";");
+                AD.Write(aux.Nombre);
+                AD.Write(";");
+                AD.Write(aux.Tramite);
+                aux = aux.Anterior;
+            }
+            AD.Close();
+        }
 
         public void Recorrer()
         {

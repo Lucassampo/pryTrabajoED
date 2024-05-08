@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TrabajoED
 {
@@ -48,6 +49,47 @@ namespace TrabajoED
         {
             FilaDePersonas.recorrerDes(dgvArbolBinario);
             FilaDePersonas.recorrerDes(cmbArbolBinario);
+        }
+
+        private void rdPreOrden_CheckedChanged(object sender, EventArgs e)
+        {
+            FilaDePersonas.Recorrer(dgvArbolBinario);
+            FilaDePersonas.Recorrer(twArbolBinario);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FilaDePersonas.Eliminar(Convert.ToInt32(cmbArbolBinario.Text));
+            if(FilaDePersonas.Raiz != null)
+            {
+                FilaDePersonas.Recorrer(dgvArbolBinario);
+                FilaDePersonas.Recorrer(twArbolBinario);
+                FilaDePersonas.Recorrer(cmbArbolBinario);
+                //FilaDePersonas.Recorrer();
+            }
+            else
+            {
+                cmbArbolBinario.Items.Clear();
+                dgvArbolBinario.Rows.Clear();
+                twArbolBinario.Nodes.Clear();
+                button2.Enabled = false;
+                btnEquilibrar.Enabled = false;
+            }
+            cmbArbolBinario.SelectedIndex = -1;
+        }
+
+        private void btnEquilibrar_Click(object sender, EventArgs e)
+        {
+            FilaDePersonas.Equilibrar();
+            FilaDePersonas.Recorrer(dgvArbolBinario);
+        }
+
+        private void rdPostOrden_CheckedChanged(object sender, EventArgs e)
+        {
+            if (FilaDePersonas.Raiz != null)
+            {
+                FilaDePersonas.RecorrerPost(dgvArbolBinario);
+            } 
         }
     }
 }

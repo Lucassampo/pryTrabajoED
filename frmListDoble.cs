@@ -54,6 +54,7 @@ namespace TrabajoED
             FilaDePersonas.Recorrer(dgvListaDoble);
             FilaDePersonas.Recorrer(lstListadoble);
             FilaDePersonas.Recorrer(cmbListaDoble);
+            FilaDePersonas.Recorrer();
         }
 
         private void rdDescendente_CheckedChanged(object sender, EventArgs e)
@@ -61,6 +62,7 @@ namespace TrabajoED
             FilaDePersonas.RecorrerDes(dgvListaDoble);
             FilaDePersonas.RecorrerDes(lstListadoble);
             FilaDePersonas.RecorrerDes(cmbListaDoble);
+            FilaDePersonas.RecorrerDes();
         }
     }
 }

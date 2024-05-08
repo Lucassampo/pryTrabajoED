@@ -57,9 +57,10 @@
             // 
             // twArbolBinario
             // 
-            this.twArbolBinario.Location = new System.Drawing.Point(12, 12);
+            this.twArbolBinario.Location = new System.Drawing.Point(16, 15);
+            this.twArbolBinario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.twArbolBinario.Name = "twArbolBinario";
-            this.twArbolBinario.Size = new System.Drawing.Size(195, 163);
+            this.twArbolBinario.Size = new System.Drawing.Size(259, 200);
             this.twArbolBinario.TabIndex = 0;
             // 
             // gbNuevoElemento
@@ -71,18 +72,21 @@
             this.gbNuevoElemento.Controls.Add(this.label3);
             this.gbNuevoElemento.Controls.Add(this.label2);
             this.gbNuevoElemento.Controls.Add(this.label1);
-            this.gbNuevoElemento.Location = new System.Drawing.Point(240, 12);
+            this.gbNuevoElemento.Location = new System.Drawing.Point(320, 15);
+            this.gbNuevoElemento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbNuevoElemento.Name = "gbNuevoElemento";
-            this.gbNuevoElemento.Size = new System.Drawing.Size(183, 163);
+            this.gbNuevoElemento.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbNuevoElemento.Size = new System.Drawing.Size(244, 201);
             this.gbNuevoElemento.TabIndex = 12;
             this.gbNuevoElemento.TabStop = false;
             this.gbNuevoElemento.Text = "Nuevo Elemento";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(64, 114);
+            this.button1.Location = new System.Drawing.Point(85, 140);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 31);
+            this.button1.Size = new System.Drawing.Size(131, 38);
             this.button1.TabIndex = 6;
             this.button1.Text = "Agregar";
             this.button1.UseVisualStyleBackColor = true;
@@ -90,49 +94,55 @@
             // 
             // txtTramite
             // 
-            this.txtTramite.Location = new System.Drawing.Point(64, 88);
+            this.txtTramite.Location = new System.Drawing.Point(85, 108);
+            this.txtTramite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTramite.Name = "txtTramite";
-            this.txtTramite.Size = new System.Drawing.Size(113, 20);
+            this.txtTramite.Size = new System.Drawing.Size(149, 22);
             this.txtTramite.TabIndex = 5;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(64, 51);
+            this.txtNombre.Location = new System.Drawing.Point(85, 63);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(113, 20);
+            this.txtNombre.Size = new System.Drawing.Size(149, 22);
             this.txtNombre.TabIndex = 4;
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(64, 20);
+            this.txtCodigo.Location = new System.Drawing.Point(85, 25);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(113, 20);
+            this.txtCodigo.Size = new System.Drawing.Size(149, 22);
             this.txtCodigo.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(5, 91);
+            this.label3.Location = new System.Drawing.Point(7, 112);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(53, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Tramite";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 54);
+            this.label2.Location = new System.Drawing.Point(8, 66);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 20);
+            this.label1.Location = new System.Drawing.Point(9, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Codigo";
             // 
@@ -141,9 +151,11 @@
             this.groupBox1.Controls.Add(this.cmbArbolBinario);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Location = new System.Drawing.Point(458, 21);
+            this.groupBox1.Location = new System.Drawing.Point(611, 26);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(210, 85);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(280, 105);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Elelemento Eliminado";
@@ -151,44 +163,51 @@
             // cmbArbolBinario
             // 
             this.cmbArbolBinario.FormattingEnabled = true;
-            this.cmbArbolBinario.Location = new System.Drawing.Point(53, 17);
+            this.cmbArbolBinario.Location = new System.Drawing.Point(71, 21);
+            this.cmbArbolBinario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbArbolBinario.Name = "cmbArbolBinario";
-            this.cmbArbolBinario.Size = new System.Drawing.Size(121, 21);
+            this.cmbArbolBinario.Size = new System.Drawing.Size(160, 24);
             this.cmbArbolBinario.TabIndex = 8;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(53, 51);
+            this.button2.Location = new System.Drawing.Point(71, 63);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 30);
+            this.button2.Size = new System.Drawing.Size(124, 37);
             this.button2.TabIndex = 7;
             this.button2.Text = "Eliminar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 20);
+            this.label6.Location = new System.Drawing.Point(9, 25);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
+            this.label6.Size = new System.Drawing.Size(51, 16);
             this.label6.TabIndex = 0;
             this.label6.Text = "Codigo";
             // 
             // btnEquilibrar
             // 
-            this.btnEquilibrar.Location = new System.Drawing.Point(485, 126);
+            this.btnEquilibrar.Location = new System.Drawing.Point(647, 155);
+            this.btnEquilibrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEquilibrar.Name = "btnEquilibrar";
-            this.btnEquilibrar.Size = new System.Drawing.Size(131, 36);
+            this.btnEquilibrar.Size = new System.Drawing.Size(175, 44);
             this.btnEquilibrar.TabIndex = 9;
             this.btnEquilibrar.Text = "Equilibrar";
             this.btnEquilibrar.UseVisualStyleBackColor = true;
+            this.btnEquilibrar.Click += new System.EventHandler(this.btnEquilibrar_Click);
             // 
             // rdInOrden
             // 
             this.rdInOrden.AutoSize = true;
-            this.rdInOrden.Location = new System.Drawing.Point(64, 219);
+            this.rdInOrden.Location = new System.Drawing.Point(85, 270);
+            this.rdInOrden.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdInOrden.Name = "rdInOrden";
-            this.rdInOrden.Size = new System.Drawing.Size(66, 17);
+            this.rdInOrden.Size = new System.Drawing.Size(79, 20);
             this.rdInOrden.TabIndex = 14;
             this.rdInOrden.TabStop = true;
             this.rdInOrden.Text = "In-Orden";
@@ -198,24 +217,28 @@
             // rdPreOrden
             // 
             this.rdPreOrden.AutoSize = true;
-            this.rdPreOrden.Location = new System.Drawing.Point(64, 265);
+            this.rdPreOrden.Location = new System.Drawing.Point(85, 326);
+            this.rdPreOrden.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdPreOrden.Name = "rdPreOrden";
-            this.rdPreOrden.Size = new System.Drawing.Size(73, 17);
+            this.rdPreOrden.Size = new System.Drawing.Size(90, 20);
             this.rdPreOrden.TabIndex = 15;
             this.rdPreOrden.TabStop = true;
             this.rdPreOrden.Text = "Pre-Orden";
             this.rdPreOrden.UseVisualStyleBackColor = true;
+            this.rdPreOrden.CheckedChanged += new System.EventHandler(this.rdPreOrden_CheckedChanged);
             // 
             // rdPostOrden
             // 
             this.rdPostOrden.AutoSize = true;
-            this.rdPostOrden.Location = new System.Drawing.Point(64, 288);
+            this.rdPostOrden.Location = new System.Drawing.Point(85, 354);
+            this.rdPostOrden.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdPostOrden.Name = "rdPostOrden";
-            this.rdPostOrden.Size = new System.Drawing.Size(78, 17);
+            this.rdPostOrden.Size = new System.Drawing.Size(96, 20);
             this.rdPostOrden.TabIndex = 16;
             this.rdPostOrden.TabStop = true;
             this.rdPostOrden.Text = "Post-Orden";
             this.rdPostOrden.UseVisualStyleBackColor = true;
+            this.rdPostOrden.CheckedChanged += new System.EventHandler(this.rdPostOrden_CheckedChanged);
             // 
             // dgvArbolBinario
             // 
@@ -226,11 +249,12 @@
             this.Codigo,
             this.Nombre,
             this.Tramite});
-            this.dgvArbolBinario.Location = new System.Drawing.Point(240, 181);
+            this.dgvArbolBinario.Location = new System.Drawing.Point(320, 223);
+            this.dgvArbolBinario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvArbolBinario.Name = "dgvArbolBinario";
             this.dgvArbolBinario.ReadOnly = true;
             this.dgvArbolBinario.RowHeadersWidth = 51;
-            this.dgvArbolBinario.Size = new System.Drawing.Size(425, 173);
+            this.dgvArbolBinario.Size = new System.Drawing.Size(567, 213);
             this.dgvArbolBinario.TabIndex = 17;
             // 
             // Codigo
@@ -260,9 +284,10 @@
             // rdInOrdenDes
             // 
             this.rdInOrdenDes.AutoSize = true;
-            this.rdInOrdenDes.Location = new System.Drawing.Point(64, 242);
+            this.rdInOrdenDes.Location = new System.Drawing.Point(85, 298);
+            this.rdInOrdenDes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdInOrdenDes.Name = "rdInOrdenDes";
-            this.rdInOrdenDes.Size = new System.Drawing.Size(85, 17);
+            this.rdInOrdenDes.Size = new System.Drawing.Size(104, 20);
             this.rdInOrdenDes.TabIndex = 18;
             this.rdInOrdenDes.TabStop = true;
             this.rdInOrdenDes.Text = "In-OrdenDes";
@@ -271,9 +296,9 @@
             // 
             // frmArbolBinario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(677, 366);
+            this.ClientSize = new System.Drawing.Size(903, 450);
             this.Controls.Add(this.rdInOrdenDes);
             this.Controls.Add(this.dgvArbolBinario);
             this.Controls.Add(this.rdPostOrden);
@@ -283,6 +308,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbNuevoElemento);
             this.Controls.Add(this.twArbolBinario);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmArbolBinario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmArbolBinario";
