@@ -36,7 +36,7 @@ namespace TrabajoED
                 if (Nuevo.Codigo <= Primero.Codigo)
                 {
                     Nuevo.Siguiente = Primero;
-                    Primero.Anterior = Nuevo;
+                    Primero.Anterior = Ultimo;
                     Primero = Nuevo;
                 }
                 else
@@ -44,7 +44,7 @@ namespace TrabajoED
                     if (Nuevo.Codigo > Ultimo.Codigo)
                     {
                         Ultimo.Siguiente = Nuevo;
-                        Nuevo.Anterior = Nuevo;
+                        Nuevo.Anterior = Ultimo;
                         Ultimo = Nuevo;
                     }
                     else
@@ -55,7 +55,6 @@ namespace TrabajoED
                         {
                             ant = aux;
                             aux = aux.Siguiente;
-                            if (aux == null) { break; }
                         }
                         ant.Siguiente = Nuevo;
                         Nuevo.Siguiente = aux;
