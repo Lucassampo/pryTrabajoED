@@ -62,5 +62,16 @@ namespace TrabajoED
             frmArbolBinario Arbol = new frmArbolBinario();
             Arbol.Show();
         }
+
+        private void baseDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultasEnLaBaseDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConsultaDeBaseDeDatos Base = new ConsultaDeBaseDeDatos();
+            Base.Show();
+        }
     }
 }

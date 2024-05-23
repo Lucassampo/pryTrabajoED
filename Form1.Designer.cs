@@ -43,6 +43,7 @@
             this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.operacionesConTablasDeBasesDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasEnLaBaseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.repasoDeOperacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,9 +129,11 @@
             // 
             this.baseDeDatosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.operacionesConTablasDeBasesDeDatosToolStripMenuItem,
-            this.consultasEnLaBaseDeDatosToolStripMenuItem});
+            this.consultasEnLaBaseDeDatosToolStripMenuItem,
+            this.repasoDeOperacionesToolStripMenuItem});
             this.baseDeDatosToolStripMenuItem.Name = "baseDeDatosToolStripMenuItem";
             resources.ApplyResources(this.baseDeDatosToolStripMenuItem, "baseDeDatosToolStripMenuItem");
+            this.baseDeDatosToolStripMenuItem.Click += new System.EventHandler(this.baseDeDatosToolStripMenuItem_Click);
             // 
             // operacionesConTablasDeBasesDeDatosToolStripMenuItem
             // 
@@ -141,6 +144,12 @@
             // 
             this.consultasEnLaBaseDeDatosToolStripMenuItem.Name = "consultasEnLaBaseDeDatosToolStripMenuItem";
             resources.ApplyResources(this.consultasEnLaBaseDeDatosToolStripMenuItem, "consultasEnLaBaseDeDatosToolStripMenuItem");
+            this.consultasEnLaBaseDeDatosToolStripMenuItem.Click += new System.EventHandler(this.consultasEnLaBaseDeDatosToolStripMenuItem_Click);
+            // 
+            // repasoDeOperacionesToolStripMenuItem
+            // 
+            this.repasoDeOperacionesToolStripMenuItem.Name = "repasoDeOperacionesToolStripMenuItem";
+            resources.ApplyResources(this.repasoDeOperacionesToolStripMenuItem, "repasoDeOperacionesToolStripMenuItem");
             // 
             // frmEstructuraDeDatos
             // 
@@ -175,6 +184,7 @@
         private System.Windows.Forms.ToolStripMenuItem baseDeDatosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem operacionesConTablasDeBasesDeDatosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasEnLaBaseDeDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem repasoDeOperacionesToolStripMenuItem;
     }
 }
 

@@ -47,11 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsArbolBinario.cs" />
+    <Compile Include="clsBaseDeDatos.cs" />
     <Compile Include="clsCola.cs" />
     <Compile Include="clsListaDoble.cs" />
     <Compile Include="clsListaSimple.cs" />
     <Compile Include="clsNodo.cs" />
     <Compile Include="clsPila.cs" />
+    <Compile Include="ConsultaDeBaseDeDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaDeBaseDeDatos.Designer.cs">
+      <DependentUpon>ConsultaDeBaseDeDatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +103,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConsultaDeBaseDeDatos.resx">
+      <DependentUpon>ConsultaDeBaseDeDatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
