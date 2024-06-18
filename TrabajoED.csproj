@@ -89,11 +89,23 @@
     <Compile Include="frmListSimple.Designer.cs">
       <DependentUpon>frmListSimple.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmOperaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperaciones.Designer.cs">
+      <DependentUpon>frmOperaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPila.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPila.Designer.cs">
       <DependentUpon>frmPila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepasoDeOperaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepasoDeOperaciones.Designer.cs">
+      <DependentUpon>frmRepasoDeOperaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSistema.cs">
       <SubType>Form</SubType>
@@ -121,8 +133,14 @@
     <EmbeddedResource Include="frmListSimple.resx">
       <DependentUpon>frmListSimple.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmOperaciones.resx">
+      <DependentUpon>frmOperaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPila.resx">
       <DependentUpon>frmPila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepasoDeOperaciones.resx">
+      <DependentUpon>frmRepasoDeOperaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSistema.resx">
       <DependentUpon>frmSistema.cs</DependentUpon>

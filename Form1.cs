@@ -73,5 +73,17 @@ namespace TrabajoED
             ConsultaDeBaseDeDatos Base = new ConsultaDeBaseDeDatos();
             Base.Show();
         }
+
+        private void repasoDeOperacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRepasoDeOperaciones repaso = new frmRepasoDeOperaciones();
+            repaso.Show();
+        }
+
+        private void operacionesConTablasDeBasesDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOperaciones operaciones = new frmOperaciones();
+            operaciones.Show();
+        }
     }
 }

@@ -139,6 +139,7 @@
             // 
             this.operacionesConTablasDeBasesDeDatosToolStripMenuItem.Name = "operacionesConTablasDeBasesDeDatosToolStripMenuItem";
             resources.ApplyResources(this.operacionesConTablasDeBasesDeDatosToolStripMenuItem, "operacionesConTablasDeBasesDeDatosToolStripMenuItem");
+            this.operacionesConTablasDeBasesDeDatosToolStripMenuItem.Click += new System.EventHandler(this.operacionesConTablasDeBasesDeDatosToolStripMenuItem_Click);
             // 
             // consultasEnLaBaseDeDatosToolStripMenuItem
             // 
@@ -150,6 +151,7 @@
             // 
             this.repasoDeOperacionesToolStripMenuItem.Name = "repasoDeOperacionesToolStripMenuItem";
             resources.ApplyResources(this.repasoDeOperacionesToolStripMenuItem, "repasoDeOperacionesToolStripMenuItem");
+            this.repasoDeOperacionesToolStripMenuItem.Click += new System.EventHandler(this.repasoDeOperacionesToolStripMenuItem_Click);
             // 
             // frmEstructuraDeDatos
             // 
